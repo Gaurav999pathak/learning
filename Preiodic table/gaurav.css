@@ -1,0 +1,20 @@
+table {
+  border-collapse: separate;
+  width: 100%;
+}
+td {
+  text-align: center;
+  width: 60px;
+  height: 60px;
+  border: 1px solid black;
+}
+.empty {
+  border: none;
+  background: white;
+}
+.green {
+  background-color: green;
+}
+.blue {
+  background-color: blue;
+}
