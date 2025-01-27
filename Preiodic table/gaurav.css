@@ -1,6 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin-top: 5px;
+}
+h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+  color: rgb(255, 85, 0);
+  text-decoration: solid;
+  font-size: xx-large;
+  text-transform: capitalize;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
 table {
   border-collapse: separate;
   width: 100%;
+  text-transform: capitalize;
 }
 td {
   text-align: center;
@@ -12,9 +33,15 @@ td {
   border: none;
   background: white;
 }
+.red {
+  background-color: rgb(184, 55, 55);
+}
+.yellow {
+  background-color: rgb(233, 233, 6);
+}
 .green {
-  background-color: green;
+  background-color: rgb(24, 156, 24);
 }
 .blue {
-  background-color: blue;
+  background-color: rgb(8, 138, 208);
 }
